@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.enterate{
+    background-color: #1560a6;
+    color: #fff;
+}
+
+.enterate .rectangulo{
+    width: 100%;
+    border: 4px solid white;
+    display: grid;
+}
+
+.enterate .separador{
+    width: 100%;
+    border: 3px solid #ffffff;
+    display: grid;
+}
+
+.enterate .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+
+.enterate h2{
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.enterate .contenido-seccion .galeria{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.enterate .contenido-seccion .galeria .card{
+    position: relative;
+    background-color: #68c6b3;
+    width: 40%;
+    height: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+.enterate .contenido-seccion .galeria .card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.enterate .contenido-seccion .galeria .masgrande{
+    position: relative;
+    background-color: #68c6b3;
+    width: 70%;
+    height: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+.enterate .contenido-seccion .galeria .masgrande img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
